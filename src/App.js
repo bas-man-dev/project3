@@ -8,10 +8,10 @@ function App() {
     <div className="App">
       <header className="App-header">
       <h1>Company Directory</h1>
-      <Employee firstName="John" lastName="Smith" />
-      <Employee firstName="Dave" lastName="Brown"  />
-      <Employee firstName="Mary" lastName="James"  />
-      <Employee firstName="Anne" lastName="Jones"  />
+      <Employee firstName="John" lastName="Smith" hobby="tennis" />
+      <Employee firstName="Dave" lastName="Brown"  hobby="archery" />
+      <Employee firstName="Mary" lastName="James"  hobby="bowling" />
+      <Employee firstName="Anne" lastName="Jones"  hobby="running" />
       </header>
     </div>
   );
