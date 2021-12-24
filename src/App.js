@@ -38,7 +38,7 @@ function App() {
       <h1>Company Directory</h1>
       {employeeInfo.map(employee => {
         return (
-          <Employee {... employee} />
+          <Employee key={employee.id} {... employee} />
         )
       })}
       </header>
