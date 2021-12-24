@@ -37,9 +37,8 @@ function App() {
       <header className="App-header">
       <h1>Company Directory</h1>
       {employeeInfo.map(employee => {
-        const { firstName, lastName, hobby, id } = employee;
         return (
-          <Employee key={id} firstName={firstName} lastName={lastName} hobby={hobby} />
+          <Employee {... employee} />
         )
       })}
       </header>
